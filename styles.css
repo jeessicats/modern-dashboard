@@ -140,4 +140,18 @@
             }
         }
     }
+
+    #analytics {
+        img {
+            max-width: 100%;
+        }
+    }
+
+    footer {
+        grid-column: 1 / -1;
+        background-color: var(--color-bg-darker);
+        padding: 1rem;
+        text-align: center;
+        font-size: var(--font-size-small);
+    }
 }
